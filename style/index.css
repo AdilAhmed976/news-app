@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&family=Montserrat:wght@100;200;400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400&family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+  }
+  #navbar {
+      height: 80px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: blanchedalmond;
+  }
+  #sidebar {
+    /* border: 1px solid black; */
+ position: sticky;
+    padding: 2%;
+    width: 150px;
+    position: sticky;
+    font-family: "Poppins";
+    background-color: blanchedalmond;
+    height: 250px;
+  }
+  #search_input {
+      height: 40px;
+      width: 1400px;
+      border-radius: 16px;
+  }
+  #results {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+   
+  }
+  img {
+      width: 30%;
+  }
+  a {
+      text-decoration: none;
+      font-family: "Poppins";
+      font-weight: bold;
+  }
+.news {
+    border: 1px solid black;
+    width:80% ;
+
+  }
+  #main {
+      display: flex;
+      flex-direction: row;
+  }
+#in,#ch,#us,#uk,#nz {
+    cursor: pointer;
+}
